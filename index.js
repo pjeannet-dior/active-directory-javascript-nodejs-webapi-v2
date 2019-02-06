@@ -9,8 +9,8 @@ var passport = require("passport");
 var BearerStrategy = require('passport-azure-ad').BearerStrategy;
 
 var options = {
-    identityMetadata: "https://login.microsoftonline.com/common/v2.0/.well-known/openid-configuration/",
-    clientID: "85327f73-fd44-46b9-a159-28544ff72288",
+    identityMetadata: "https://login.microsoftonline.com/ef3131b7-4c1b-4205-8a07-645cc0414c3d/v2.0/.well-known/openid-configuration",
+    clientID: "c4e2ac92-6393-4714-bb4a-7c6d31dd614d",
     validateIssuer: false,
     loggingLevel: 'warn',
     passReqToCallback: false
